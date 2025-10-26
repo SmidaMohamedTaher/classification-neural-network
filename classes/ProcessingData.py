@@ -1,7 +1,7 @@
 import pandas as pd
 class ProcessingData :
     @staticmethod
-    def geCsvtData(path):
+    def getCsvData(path):
         return pd.read_csv(path)
     
     @staticmethod
