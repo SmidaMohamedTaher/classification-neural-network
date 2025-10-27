@@ -5,7 +5,7 @@ class Layers:
     def generateWeight(num):
         list = []
         for i in range(num):
-            list.append(round(random.uniform(-1, 1), 1))
+            list.append(round(random.uniform(-0.1, 0.1), 1))
     
         return list 
     @staticmethod
